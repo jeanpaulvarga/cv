@@ -776,8 +776,8 @@
 	<script src="js/main.js"></script>
 
 
-	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-
+	
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
 
 	<style>
 	  df-messenger {
@@ -792,18 +792,19 @@
 	  }
 	</style>
 	
-	
-	<df-messenger
-	  chat-icon="https://jeanpaulvarga.github.io/cv/images/jpv-icone.png"
-	  intent="WELCOME"
-	  chat-title="Assistant virtuel JPV"
-	  agent-id="80ae7c66-86ec-4728-9c06-6a2fb72af7d8"
-	  language-code="fr"
-	  
-	  wait-open=1
-	></df-messenger>
+
 	
 
+
+
+<df-messenger
+  df-cx="true
+  chat-icon="https://jeanpaulvarga.github.io/cv/images/jpv-icone.png"
+  chat-title="jean-Paul Varga personal Bot"
+  agent-id="d17e17be-c8f0-4d28-99d8-7f994b58c730"
+  language-code="fr"
+  wait-open=1
+></df-messenger>
 
 
 	</body>
